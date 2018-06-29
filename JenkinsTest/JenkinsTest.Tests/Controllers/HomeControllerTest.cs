@@ -1,14 +1,14 @@
 ﻿using System.Web.Mvc;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using JenkinsTest;
 using JenkinsTest.Controllers;
+using NUnit.Framework;
 
 namespace JenkinsTest.Tests.Controllers
 {
-    [TestClass]
+    [TestFixture]
     public class HomeControllerTest
     {
-        [TestMethod]
+        [Test]
         public void Index()
         {
             // Arrange
