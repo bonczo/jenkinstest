@@ -21,7 +21,7 @@ namespace JenkinsTest.Tests.Controllers
 
             // Act
             IEnumerable<string> result = controller.Get();
-
+             
             // Assert
             Assert.IsNotNull(result);
             Assert.AreEqual(2, result.Count());
