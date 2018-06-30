@@ -1,5 +1,4 @@
 ﻿using System.Web.Mvc;
-using JenkinsTest;
 using JenkinsTest.Controllers;
 using NUnit.Framework;
 
